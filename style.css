@@ -49,3 +49,14 @@ text-transform: uppercase;
     text-transform: uppercase;
 }
 
+.btn{
+    color: #fff;
+    background: #000;
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 4px;
+    }
+    
+    .btn:hover{
+    background:cornflowerblue;
+    }
