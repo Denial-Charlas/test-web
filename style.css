@@ -54,9 +54,21 @@ text-transform: uppercase;
     background: #000;
     padding: 10px 40px;
     text-decoration: none;
-    border-radius: 4px;
+    border-radius: 3px;
+    animation-name: ani;
+    animation-duration: 10s;
     }
     
 .btn:hover{
     background:cornflowerblue;
     }
+
+
+
+@keyframes ani{
+0% { background-color: cyan;}
+10% { background-color: yellow;}
+20% {background-color: aqua;}
+50% {background-color: gray;}
+100% {background-color: blue;}
+}
